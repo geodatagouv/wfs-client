@@ -1,0 +1,35 @@
+{
+  "name": "wfs",
+  "version": "0.0.1",
+  "description": "A very simple WFS client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdesboeufs/node-wfs.git"
+  },
+  "keywords": [
+    "WFS",
+    "OGC"
+  ],
+  "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdesboeufs/node-wfs/issues"
+  },
+  "homepage": "https://github.com/jdesboeufs/node-wfs",
+  "dependencies": {
+    "async": "^0.7.0",
+    "libxmljs": "^0.9.0",
+    "lodash": "^2.4.1",
+    "superagent": "^0.17.0",
+    "superagent-retry": "~0.3.0",
+    "underscore.string": "^2.3.3"
+  },
+  "devDependencies": {
+    "matchdep": "^0.3.0",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}
