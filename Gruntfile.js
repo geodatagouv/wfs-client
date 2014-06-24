@@ -12,7 +12,7 @@ module.exports = function (grunt) {
                 immed: true,
                 indent: 4,
                 latedef: true,
-                newcap: true,
+                // newcap: true, // Disabled because of Q usage
                 nonew: true,
                 quotmark: 'single',
                 undef: true,
