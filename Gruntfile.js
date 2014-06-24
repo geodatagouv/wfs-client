@@ -5,17 +5,19 @@ module.exports = function (grunt) {
 
         jshint: {
             options: {
-                'eqeqeq': true,
-                'immed': true,
-                'latedef': true,
-                'newcap': true,
-                'noarg': true,
-                'noempty': true,
-                'unused': true,
-                'undef': true,
-                'trailing': true,
-                'quotmark': 'single',
-                'node': true
+                node: true,
+                bitwise: true,
+                eqeqeq: true,
+                freeze: true,
+                immed: true,
+                indent: 4,
+                latedef: true,
+                newcap: true,
+                nonew: true,
+                quotmark: 'single',
+                undef: true,
+                unused: true,
+                trailing: true,
             },
             all: {
                 files: {

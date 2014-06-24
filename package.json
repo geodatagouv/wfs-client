@@ -4,7 +4,7 @@
   "description": "A very simple WFS client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt jshint"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "superagent-retry": "~0.3.0"
   },
   "devDependencies": {
-    "matchdep": "^0.3.0",
-    "grunt-contrib-jshint": "^0.10.0"
+    "grunt-contrib-jshint": "^0.10.0",
+    "matchdep": "^0.3.0"
   }
 }
