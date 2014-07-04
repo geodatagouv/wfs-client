@@ -22,7 +22,6 @@
   "homepage": "https://github.com/jdesboeufs/wfs-client",
   "dependencies": {
     "debug": "^1.0.2",
-    "iconv-lite": "^0.4.3",
     "libxmljs": "^0.9.0",
     "lodash": "^2.4.1",
     "q": "^1.0.1",
