@@ -44,3 +44,5 @@ rules:
     - always
   no-warning-comments:
     - error
+  no-var:
+    - error

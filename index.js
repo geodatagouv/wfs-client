@@ -1,7 +1,7 @@
 /*
 ** Module dependencies
 */
-var Client = require('./lib/client');
+const Client = require('./lib/client');
 
 
 /*
