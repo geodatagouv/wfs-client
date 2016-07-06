@@ -27,8 +27,7 @@
     "lodash": "^3.6",
     "q": "^1.0.1",
     "semver": "^4.3.3",
-    "superagent": "^0.21",
-    "superagent-retry": "^0.5.1"
+    "superagent": "^0.21"
   },
   "devDependencies": {
     "eslint": "^3.0.0"

@@ -24,7 +24,6 @@ var client = wfs('http://your-wfs-server.tld/wfs', options);
 | Option name | Type | Description | Default | Example |
 | ---------- | ---------- | ----------- | ---------- | ---------- |
 | version | Optional | If you want to by-pass version negociation | _undefined_ | 1.1.0 |
-| retry | Optional | If your server is unstable and you want to try again N times | false | 2 |
 | userAgent | Optional | User-Agent used in requests | _Empty_ | WFSBot 1.0 |
 
 ### Get service capabilities
