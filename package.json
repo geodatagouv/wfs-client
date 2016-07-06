@@ -25,7 +25,6 @@
     "debug": "^2.0",
     "libxmljs": "^0.18",
     "lodash": "^3.6",
-    "q": "^1.0.1",
     "semver": "^4.3.3",
     "superagent": "^0.21"
   },
