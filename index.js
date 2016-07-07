@@ -8,7 +8,7 @@ const Client = require('./lib/client');
 ** Methods
 */
 function wfs(url, options) {
-    return new Client(url, options);
+  return new Client(url, options);
 }
 
 
