@@ -1,6 +1,6 @@
 {
   "name": "wfs-client",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A very simple WFS client",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jdesboeufs/wfs-client.git"
+    "url": "git://github.com/inspireteam/wfs-client.git"
   },
   "keywords": [
     "WFS",
@@ -18,9 +18,9 @@
   "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jdesboeufs/wfs-client/issues"
+    "url": "https://github.com/inspireteam/wfs-client/issues"
   },
-  "homepage": "https://github.com/jdesboeufs/wfs-client",
+  "homepage": "https://github.com/inspireteam/wfs-client",
   "dependencies": {
     "debug": "^2.0",
     "libxmljs": "^0.18",
