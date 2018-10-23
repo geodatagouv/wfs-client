@@ -27,7 +27,7 @@ const client = wfs('http://your-wfs-server.tld/wfs', options)
 | Option name | Type | Description | Default | Example |
 | ---------- | ---------- | ----------- | ---------- | ---------- |
 | version | Optional | If you want to by-pass version negociation | _undefined_ | 1.1.0 |
-| userAgent | Optional | User-Agent used in requests | _Empty_ | WFSBot 1.0 |
+| userAgent | Optional | User-Agent used in requests | wfs-client/{version} (+https://github.com/geodatagouv/wfs-client) | WFSBot 1.0 |
 
 ### Get service capabilities
 
