@@ -18,8 +18,8 @@
 ### Create a client
 
 ```js
-const wfs = require('wfs-client')
-const client = wfs('http://your-wfs-server.tld/wfs', options)
+const WfsClient = require('wfs-client')
+const client = new WfsClient('http://your-wfs-server.tld/wfs', options)
 ```
 
 #### Options
