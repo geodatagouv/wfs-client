@@ -8,7 +8,6 @@ A very simple WFS client
 * Version negociation
 * Service identification in plain JavaScript / JSON
 * List all feature types
-* Based on [Q promises](https://github.com/kriskowal/q)
 
 ## Usage
 
@@ -29,32 +28,26 @@ var client = wfs('http://your-wfs-server.tld/wfs', options);
 ### Get service capabilities
 
 ```js
-client.capabilities()
-    .done(function(capabilities) {
+const capabilities = await client.capabilities()
 
-        // Service identification
-        console.log(capabilities.service);
+// Service identification
+console.log(capabilities.service)
 
-        // Feature types
-        console.log(capabilities.featureTypes);
-
-    })
-    .fail(function(err) {
-        console.trace(err);
-    });
+// Feature types
+console.log(capabilities.featureTypes)
 ```
 
 #### Service identification example
 
 ```js
 {
-    title: 'My WFS server title',
-    abstract: 'This WFS server is dedicated to environment data...',
-    keywords: [ 'Data', 'Water', 'Energy', 'France', 'Europa'],
-    serviceType: 'WFS',
-    serviceTypeVersion: '2.0.0',
-    fees: 'Free',
-    accessConstraints: 'None'
+  title: 'My WFS server title',
+  abstract: 'This WFS server is dedicated to environment data...',
+  keywords: [ 'Data', 'Water', 'Energy', 'France', 'Europa'],
+  serviceType: 'WFS',
+  serviceTypeVersion: '2.0.0',
+  fees: 'Free',
+  accessConstraints: 'None'
 }
 ```
 
@@ -62,24 +55,24 @@ client.capabilities()
 
 ```js
 [
-    {
-        name: 'orgA:wind_power_zones',
-        title: 'Wind power zones',
-        keywords: [
-            'Wind power',
-            'Energy',
-            'Zoning'
-        ]
-    },
-    {
-        name: 'orgB:solar_energy_zones',
-        title: 'Solar energy zones',
-        keywords: [
-            'Solar energy',
-            'Energy',
-            'Zoning'
-        ]
-    }
+  {
+    name: 'orgA:wind_power_zones',
+    title: 'Wind power zones',
+    keywords: [
+      'Wind power',
+      'Energy',
+      'Zoning'
+    ]
+  },
+  {
+    name: 'orgB:solar_energy_zones',
+    title: 'Solar energy zones',
+    keywords: [
+      'Solar energy',
+      'Energy',
+      'Zoning'
+    ]
+  }
 ]
 ```
 
