@@ -3,7 +3,6 @@
 > A very simple WFS client
 
 [![npm version](https://badgen.net/npm/v/wfs-client)](https://www.npmjs.com/package/wfs-client)
-[![codecov](https://badgen.net/codecov/c/github/geodatagouv/wfs-client)](https://codecov.io/gh/geodatagouv/wfs-client)
 [![dependencies Status](https://badgen.net/david/dep/geodatagouv/wfs-client)](https://david-dm.org/geodatagouv/wfs-client)
 [![XO code style](https://badgen.net/badge/code%20style/XO/cyan)](https://github.com/xojs/xo)
 
@@ -19,8 +18,8 @@
 ### Create a client
 
 ```js
-var wfs = require('wfs-client');
-var client = wfs('http://your-wfs-server.tld/wfs', options);
+const wfs = require('wfs-client')
+const client = wfs('http://your-wfs-server.tld/wfs', options)
 ```
 
 #### Options
