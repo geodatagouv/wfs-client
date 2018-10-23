@@ -1,6 +1,11 @@
-# wfs-client [![Build Status](https://secure.travis-ci.org/jdesboeufs/wfs-client.svg)](http://travis-ci.org/jdesboeufs/wfs-client)
+# wfs-client [![CircleCI](https://circleci.com/gh/geodatagouv/wfs-client.svg?style=svg)](https://circleci.com/gh/geodatagouv/wfs-client)
 
-A very simple WFS client
+> A very simple WFS client
+
+[![npm version](https://badgen.net/npm/v/wfs-client)](https://www.npmjs.com/package/wfs-client)
+[![codecov](https://badgen.net/codecov/c/github/geodatagouv/wfs-client)](https://codecov.io/gh/geodatagouv/wfs-client)
+[![dependencies Status](https://badgen.net/david/dep/geodatagouv/wfs-client)](https://david-dm.org/geodatagouv/wfs-client)
+[![XO code style](https://badgen.net/badge/code%20style/XO/cyan)](https://github.com/xojs/xo)
 
 ## Features
 
