@@ -21,7 +21,7 @@
     "debug": "^4.1.0",
     "got": "^9.2.2",
     "libxmljs": "^0.19.5",
-    "lodash": "^3.6",
+    "lodash": "^4.17",
     "semver": "^4.3.3"
   },
   "devDependencies": {
