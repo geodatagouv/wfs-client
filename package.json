@@ -7,10 +7,7 @@
     "index.js",
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/inspireteam/wfs-client.git"
-  },
+  "repository": "git://github.com/geodatagouv/wfs-client.git",
   "keywords": [
     "WFS",
     "OGC"
@@ -18,9 +15,9 @@
   "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/inspireteam/wfs-client/issues"
+    "url": "https://github.com/geodatagouv/wfs-client/issues"
   },
-  "homepage": "https://github.com/inspireteam/wfs-client",
+  "homepage": "https://github.com/geodatagouv/wfs-client",
   "dependencies": {
     "debug": "^4.1.0",
     "got": "^9.2.2",
