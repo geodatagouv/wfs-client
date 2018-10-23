@@ -3,6 +3,10 @@
   "version": "0.3.0",
   "description": "A very simple WFS client",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/inspireteam/wfs-client.git"
