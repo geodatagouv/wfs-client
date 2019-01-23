@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "lerna-changelog": "^0.8.2",
-    "xo": "^0.23.0"
+    "xo": "^0.24.0"
   },
   "engines": {
     "node": ">=8"
